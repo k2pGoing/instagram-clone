@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from '../components/Header'
 
 const Index = () => {
     return(
-        <div>
-            Hello World!
-        </div>
+        <Header>
+            <div>
+                Hello World! 
+                This is main page
+            </div>
+        </Header>
+        
     )
 }
 
